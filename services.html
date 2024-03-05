@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Pixar || Services</title>
     <link rel="stylesheet" href="./css/styles.min.css" />
   </head>
   <body>
@@ -21,30 +21,32 @@
               <nav class="site-header__navbar">
                 <ul class="site-header__list">
                   <li class="site-header__item">
-                    <a class="site-header__link" href="#">Xizmatlar</a>
+                    <a class="site-header__link" href="./services.html"
+                      >Xizmatlar</a
+                    >
                     <ul class="site-header__dropdown-list">
                       <li class="site-header__dropdown-items">
-                        <a class="site-header__dropdown-links" href="#">
+                        <a class="site-header__dropdown-links" href="#web">
                           Vebsayt
                         </a>
                       </li>
                       <li class="site-header__dropdown-items">
-                        <a class="site-header__dropdown-links" href="#">
+                        <a class="site-header__dropdown-links" href="#bot">
                           Telegram bot
                         </a>
                       </li>
                       <li class="site-header__dropdown-items">
-                        <a class="site-header__dropdown-links" href="#">
+                        <a class="site-header__dropdown-links" href="#smm">
                           SMM
                         </a>
                       </li>
                       <li class="site-header__dropdown-items">
-                        <a class="site-header__dropdown-links" href="#">
+                        <a class="site-header__dropdown-links" href="#design">
                           Grafik dizayn
                         </a>
                       </li>
                       <li class="site-header__dropdown-items">
-                        <a class="site-header__dropdown-links" href="#">
+                        <a class="site-header__dropdown-links" href="#crm">
                           CRM tizim
                         </a>
                       </li>
@@ -78,7 +80,7 @@
           <div class="container">
             <div class="services__big">
               <div class="services__box">
-                <h1 class="services__title" title="Xizmatlar">Xizmatlar</h1>
+                <h2 class="services__title" title="Xizmatlar">Xizmatlar</h2>
                 <p class="services__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                   pretium orci nec neque finibus mattis. Vivamus in sem rhoncus,
@@ -93,7 +95,7 @@
         <div class="services__end">
           <div class="container">
             <ul class="services__list">
-              <li class="services__item">
+              <li id="web" class="services__item">
                 <h2 class="services__small-title" title="Sayt tuzish">
                   Sayt tuzish
                 </h2>
@@ -109,11 +111,11 @@
                   <li class="services__inneritem">maxsus</li>
                 </ul>
                 <div class="services__linkbox">
-                  <a class="services__link" href="#">Buyurtma berish</a>
+                  <a class="services__link" href="#order">Buyurtma berish</a>
                   <a class="services__icon" href="#">Batafsil ma’lumot</a>
                 </div>
               </li>
-              <li class="services__item">
+              <li id="bot" class="services__item">
                 <h2 class="services__small-title" title="Telegram bot tuzish">
                   Telegram bot tuzish
                 </h2>
@@ -130,11 +132,11 @@
                   <li class="services__inneritem">maxsus</li>
                 </ul>
                 <div class="services__linkbox">
-                  <a class="services__link" href="#">Buyurtma berish</a>
+                  <a class="services__link" href="#order">Buyurtma berish</a>
                   <a class="services__icon" href="#">Batafsil ma’lumot</a>
                 </div>
               </li>
-              <li class="services__item">
+              <li id="smm" class="services__item">
                 <h2 class="services__small-title" title="SMM">SMM</h2>
                 <p class="services__desc">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -148,11 +150,11 @@
                   <li class="services__inneritem">aksiyalar uyushtirish</li>
                 </ul>
                 <div class="services__linkbox">
-                  <a class="services__link" href="#">Buyurtma berish</a>
+                  <a class="services__link" href="#order">Buyurtma berish</a>
                   <a class="services__icon" href="#">Batafsil ma’lumot</a>
                 </div>
               </li>
-              <li class="services__item">
+              <li id="design" class="services__item">
                 <h2 class="services__small-title" title="Grafik dizayn">
                   Grafik dizayn
                 </h2>
@@ -169,11 +171,11 @@
                   </li>
                 </ul>
                 <div class="services__linkbox">
-                  <a class="services__link" href="#">Buyurtma berish</a>
+                  <a class="services__link" href="#order">Buyurtma berish</a>
                   <a class="services__icon" href="#">Batafsil ma’lumot</a>
                 </div>
               </li>
-              <li class="services__item">
+              <li id="crm" class="services__item">
                 <h2 class="services__small-title" title="CRM tizimlar">
                   CRM tizimlar
                 </h2>
@@ -190,7 +192,7 @@
                   <li class="services__inneritem">maxsus</li>
                 </ul>
                 <div class="services__linkbox">
-                  <a class="services__link" href="#">Buyurtma berish</a>
+                  <a class="services__link" href="#order">Buyurtma berish</a>
                   <a class="services__icon" href="#">Batafsil ma’lumot</a>
                 </div>
               </li>
@@ -198,6 +200,57 @@
           </div>
         </div>
       </section>
+      <!-- order section started -->
+      <section class="order" id="order">
+        <div class="container">
+          <h2 class="order__title">Buyurtma berish</h2>
+          <div class="order__text-wrapper">
+            <p class="order__text">
+              Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu.
+              Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in.
+              Vivamus mattis eros at sem pulvinar
+            </p>
+          </div>
+          <form
+            action="https://echo.htmlacademy.ru/courses"
+            class="order__form"
+            method="POST"
+            autocomplete="off"
+          >
+            <input
+              class="order__input"
+              type="text"
+              name="User_name"
+              aria-label="Ismingizni kiriting"
+              placeholder="Ismingiz"
+              required
+            />
+            <input
+              class="order__input"
+              type="tel"
+              name="user_phone_number"
+              aria-label="Telefon raqamingizni kiriting"
+              placeholder="Telefon raqamingiz"
+              required
+            />
+            <select
+              class="order__selection"
+              name="our_service"
+              aria-label="Hizmat turini tanlang"
+              required
+            >
+              <option value="" hidden>Xizmat turi</option>
+              <option value="Vebsayt tuzish">Vebsayt tuzish</option>
+              <option value="Telegram bot">Telegram bot</option>
+              <option value="SMM">SMM</option>
+              <option value="Grafik dizayn">Grafik dizayn</option>
+              <option value="CRM tizimlar">CRM tizimlar</option>
+            </select>
+            <button class="order__btn" type="submit">Buyurtma berish</button>
+          </form>
+        </div>
+      </section>
+      <!-- order section ended -->
     </main>
     <!-- Footer start -->
     <footer class="site-footer">

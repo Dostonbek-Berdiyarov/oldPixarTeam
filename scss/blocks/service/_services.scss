@@ -62,48 +62,36 @@
   transition: box-shadow 0.4s ease-in;
   position: relative;
 }
-
-.services__item:first-child::before {
+.services__item::before {
   content: "";
   width: 200px;
-  height: 128px;
-  background-image: url(../images/websiteone.svg);
   background-repeat: no-repeat;
   position: absolute;
   top: 32px;
   left: 32px;
+}
+.services__item:first-child::before {
+  height: 128px;
+  background-image: url(../images/websiteone.svg);
 }
 
 .services__item:nth-child(2)::before {
-  content: "";
-  width: 200px;
   height: 117px;
   background-image: url(../images/bot.svg);
-  position: absolute;
-  top: 32px;
-  left: 32px;
 }
 
 .services__item:nth-child(3)::before {
-  content: "";
-  width: 200px;
   height: 147px;
   background-image: url(../images/smm.svg);
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 32px;
-  left: 32px;
 }
 
 .services__item:nth-child(4)::before {
-  content: "";
-  width: 200px;
   height: 145px;
   background-image: url(../images/design.svg);
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 32px;
-  left: 32px;
+}
+.services__item:nth-child(5)::before {
+  height: 154px;
+  background-image: url(../images/crm.svg);
 }
 
 .services__item:hover {

@@ -1,0 +1,74 @@
+.order {
+  padding: 56px 100px;
+  background-color: #00bafc;
+}
+.order__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 31.2px;
+  text-align: center;
+  color: #fff;
+}
+.order__text-wrapper {
+  max-width: 719px;
+  margin: 0 auto 16px;
+}
+.order__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+.order__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 348px;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.order__input {
+  width: 300px;
+  padding: 16px;
+  margin-bottom: 16px;
+  line-height: 24px;
+  border-radius: 5px;
+  background-color: var(--light-grey, #f3f3f3);
+  border: none;
+}
+.order__selection {
+  width: 300px;
+  margin-bottom: 16px;
+  padding: 16px 14px;
+  line-height: 24px;
+  appearance: none;
+  border-radius: 5px;
+  background-color: var(--light-grey, #f3f3f3);
+  border: none;
+  background-image: url("../../images/arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 263px 20px;
+}
+.order__btn {
+  display: block;
+  width: 167px;
+  margin: 0 auto;
+  padding: 8px 16px;
+  font-weight: 700;
+  line-height: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: var(--blue, #00bafc);
+  transition: background-color 0.4s ease-in;
+  &:hover {
+    background-color: #00bafccc;
+  }
+  &:active {
+    background-color: #00bafc99;
+  }
+}

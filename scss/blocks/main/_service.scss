@@ -1,0 +1,114 @@
+.service {
+  padding-bottom: 112px;
+}
+.service__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 31.2px;
+}
+.service__text-wrapper {
+  margin: 0 auto 16px;
+  max-width: 719px;
+}
+.service__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 24px;
+}
+.service__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px 70px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  padding-left: 0;
+  list-style-type: none;
+}
+.service__items {
+  max-width: 320px;
+  width: 100%;
+  padding: 24px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.4s ease-in;
+  &::before {
+    display: block;
+    height: 130px;
+    margin: 0 auto 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: "";
+  }
+  &:hover {
+    box-shadow: 0px 12px 21px 0px #0000001a;
+  }
+  &:active {
+    box-shadow: 0px 4px 4px 0px #0003;
+  }
+}
+.service__items:nth-child(1)::before {
+  width: 203px;
+  background-image: url("../../../images/websiteone.svg");
+}
+.service__items:nth-child(2)::before {
+  width: 222px;
+  background-image: url("../../../images/bot.svg");
+}
+.service__items:nth-child(3)::before {
+  width: 177px;
+  background-image: url("../../../images/smm.svg");
+}
+.service__items:nth-child(4)::before {
+  width: 179px;
+  background-image: url("../../../images/design.svg");
+}
+.service__items:nth-child(5)::before {
+  width: 169px;
+  background-image: url("../../../images/crm.svg");
+}
+.service__subtitle {
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 26px;
+}
+.service__desc {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 24px;
+  text-align: center;
+}
+.service__links-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+}
+.service__links:nth-child(1) {
+  padding: 8px 16px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 24px;
+  border-radius: 5px;
+  background-color: #00bafc;
+  text-decoration: none;
+  transition: background-color 0.4s ease-in;
+  &:hover {
+    background-color: #00bafccc;
+  }
+  &:active {
+    background-color: #00bafc99;
+  }
+}
+.service__links:nth-child(2) {
+  color: #00bafc;
+  text-align: center;
+  line-height: 24px;
+  text-decoration-color: #00bafccc;
+}
