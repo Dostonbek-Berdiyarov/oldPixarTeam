@@ -1,0 +1,138 @@
+.site-footer {
+    background-color: var(--black, #191919);
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.site-footer__descbox {
+    max-width: 320px;
+}
+
+.site-footer__span {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.site-footer__text {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.site-footer__bold {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+
+.site-footer__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.site-footer__link {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: none;
+    transition: color 0.4s linear, opacity 0.4s linear;
+}
+
+.site-footer__link:hover {
+    color: #00bafc;
+}
+
+.site-footer__link:active {
+    opacity: 0.6;
+}
+
+.site-footer__item--inner {
+    padding-left: 30px;
+    position: relative;
+    transition: opacity 0.4s linear, color 0.4s linear;
+}
+
+.site-footer__item--inner:first-child::before {
+    content: "";
+    width: 22px;
+    height: 24px;
+    background-image: url(../images/telegram.svg);
+    position: absolute;
+    left: 0;
+}
+
+.site-footer__item--inner:nth-child(2)::before {
+    content: "";
+    width: 22px;
+    height: 24px;
+    background-image: url(../images/facebook.svg);
+    position: absolute;
+    left: 0;
+}
+
+.site-footer__item--inner:nth-child(3)::before {
+    content: "";
+    width: 22px;
+    height: 24px;
+    background-image: url(../images/instagram.svg);
+    position: absolute;
+    left: 0;
+}
+
+.site-footer__item--inner:first-child:active:before {
+    opacity: 0.6;
+}
+
+.site-footer__item--inner:nth-child(2):active::before {
+    opacity: 0.6;
+}
+
+.site-footer__item--inner:nth-child(3):active::before {
+    opacity: 0.6;
+}
+
+.site-footer__icon {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: none;
+    transition: color 0.4s linear, opacity 0.4s linear;
+}
+
+.site-footer__icon:hover {
+    color: #00bafc;
+}
+
+.site-footer__icon:active {
+    opacity: 0.6;
+}
+
+.site-footer__big-box {
+    display: flex;
+    column-gap: 100px;
+}
+
+.site-footer__innerbox {
+    display: flex;
+    column-gap: 87px;
+}
